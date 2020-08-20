@@ -14,6 +14,7 @@ namespace DAN_LIV
         public string MotorType { get; set; }
         public string Color { get; set; }
         public int MotorNumber { get; set; }
+        public int FuelLitres { get; set; }
 
         public abstract void Start();
         public abstract void Stop();
